@@ -85,3 +85,32 @@
     top: 0px;
   }
 }
+
+@media (max-width: 991px) {
+  .about-subtitle {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .font-64 {
+    font-size: 32px;
+  }
+
+  .lh-64 {
+    line-height: 32px;
+  }
+
+  .mt-150 {
+    margin-top: 36px;
+  }
+
+  .mt-90 {
+    margin-top: 0px;
+  }
+
+  .px-70 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

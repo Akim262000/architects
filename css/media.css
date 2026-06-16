@@ -87,6 +87,18 @@
 }
 
 @media (max-width: 991px) {
+  .ms-80 {
+    margin-left: 24px;
+  }
+
+  .our-projects .font-64 {
+    font-size: 32px;
+  }
+
+  .our-projects .lh-64 {
+    line-height: 32px;
+  }
+
   .about-subtitle {
     max-width: 100%;
   }

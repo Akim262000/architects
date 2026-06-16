@@ -1,0 +1,36 @@
+.body {
+  font-family: "Roboto", sans-serif;
+}
+
+.text-gray {
+  color: #333333 !important;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.lh-12 {
+  line-height: 12px;
+}
+
+.ls-20 {
+  letter-spacing: 20%;
+}
+
+.me-50 {
+  margin-right: 50px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.nav-link.active {
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+}

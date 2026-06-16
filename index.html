@@ -60,27 +60,27 @@
           >
             <div class="border-menu navbar-nav">
               <a
-                class="nav-link active font-12 fw-normal text-gray lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start"
+                class="nav-link active font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start"
                 href="#"
                 >Main</a
               >
               <a
-                class="nav-link font-12 fw-normal text-gray lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start"
+                class="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start"
                 href="#"
                 >GALLERY</a
               >
               <a
-                class="nav-link font-12 fw-normal text-gray lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start"
+                class="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start"
                 href="#"
                 >PROJECTS</a
               >
               <a
-                class="nav-link font-12 fw-normal text-gray lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start"
+                class="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start"
                 href="#"
                 >CERTIFICATIONS</a
               >
               <a
-                class="nav-link font-12 fw-normal text-gray lh-12 ls-20 text-uppercase py-2 px-3 text-center text-xl-start"
+                class="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 text-center text-xl-start"
                 href="#"
                 >COntacts</a
               >
@@ -94,7 +94,7 @@
       <section class="project">
         <div class="row d-flex align-items-end justify-content-between">
           <h2
-            class="font-64 fw-light lh-64 text-light-gray text-uppercase mb-3 d-block d-md-none"
+            class="font-64 fw-light lh-64 text-gray-two text-uppercase mb-3 d-block d-md-none"
           >
             project
           </h2>
@@ -102,7 +102,7 @@
             class="col-12 col-md-4 d-flex flex-column align-items-center align-items-md-start order-2 order-md-1"
           >
             <h2
-              class="font-64 fw-light lh-64 text-light-gray text-uppercase mb-0 d-none d-md-block"
+              class="font-64 fw-light lh-64 text-gray-two text-uppercase mb-0 d-none d-md-block"
             >
               project
             </h2>
@@ -120,11 +120,11 @@
                 ></button>
               </div>
               <div class="d-flex align-items-center mt-90">
-                <span class="font-24 fw-normal text-light-gray lh-24 me-4"
+                <span class="font-24 fw-normal text-gray-two lh-24 me-4"
                   >01</span
                 >
                 <img src="./images/line.svg" alt="" />
-                <span class="font-24 fw-normal text-light-gray lh-24 ms-4"
+                <span class="font-24 fw-normal text-gray-two lh-24 ms-4"
                   >03</span
                 >
               </div>
@@ -133,10 +133,10 @@
 
           <div class="col-12 col-md-7 order-1 order-md-2">
             <div class="project-slider project-slide-card">
-              <img class="" src="./images/project-1.jpg" alt="slide-1" />
+              <img class="project" src="./images/project-1.jpg" alt="slide-1" />
 
-              <img class="" src="./images/project-1.jpg" alt="slide-2" />
-              <img class="" src="./images/project-1.jpg" alt="slide-2" />
+              <img class="project" src="./images/project-1.jpg" alt="slide-2" />
+              <img class="project" src="./images/project-1.jpg" alt="slide-2" />
             </div>
           </div>
         </div>
@@ -145,11 +145,7 @@
       <section class="about mt-120 py-30 px-70 bg-light-gray">
         <div class="row d-flex justify-content-between">
           <div class="col-7 d-none d-lg-flex d-xxl-none">
-            <img
-              class=""
-              src="./images/about-1.jpg"
-              alt="About image"
-            />
+            <img src="./images/about-1.jpg" alt="About image" />
           </div>
           <div class="col-7 d-none d-xxl-block">
             <div class="w-100 h-100 position-relative">
@@ -170,14 +166,20 @@
               />
             </div>
           </div>
-          <div class="col-12 col-lg-5 d-flex flex-column  align-items-start justify-content-end">
+          <div
+            class="col-12 col-lg-5 d-flex flex-column align-items-start justify-content-end"
+          >
             <h2
-              class="font-64 fw-light lh-64 text-light-gray text-uppercase mb-20"
+              class="font-64 fw-light lh-64 text-gray-two text-uppercase mb-20"
             >
               about
             </h2>
-            <img class="d-block d-lg-none mb-3 w-100" src="./images/about-1.jpg" alt="">
-            <p class="about-subtitle font-16 lh-24 text-black mb-5">
+            <img
+              class="d-block d-lg-none mb-3 w-100"
+              src="./images/about-1.jpg"
+              alt="About image"
+            />
+            <p class="about-subtitle font-16 fw-light lh-24 text-black mb-5">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -186,11 +188,35 @@
               electronic typesetting, remaining essentially unchanged.
             </p>
             <a
-              class="font-12 text-gray bg-white lh-12 py-4 ps-35 pe-64 text-decoration-none text-uppercase"
+              class="font-12 fw-normal text-gray-one bg-white lh-12 py-4 ps-35 pe-64 text-decoration-none text-uppercase"
               href=""
               >Read More
               <img class="ms-3" src="./images/arrow-next.svg" alt="arrow" />
             </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-focus mt-150">
+        <h2 class="font-64 fw-light lh-64 text-gray-two mb-60">
+          Main Focus/Mission Statement
+        </h2>
+        <div class="row d-flex justify-content-between align-items-start">
+          <div class="col-4 d-flex align-items-center">
+            <span class="font-200 fw-bolder text-gray-three lh-200 me-30">1</span>
+            <p class="font-22 fw-normal lh-36 mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              efficitur, lectus et facilisis placerat.
+            </p>
+          </div>
+
+          <div class="col-6 d-flex align-items-center">
+            <span class="font-200 fw-bolder text-gray-three lh-200 me-30">2</span>
+            <p class="font-22 fw-normal lh-36 mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              efficitur, lectus et facilisis placerat, magna mauris porttitor
+              tortor, a auctor est felis ut nisl.
+            </p>
           </div>
         </div>
       </section>

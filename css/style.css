@@ -6,16 +6,24 @@
   background-color: #fbfbfb;
 }
 
-.text-gray {
-  color: #333333 !important;
+.text-gray-one {
+  color: #333333;
 }
 
-.text-light-gray {
+.text-gray-two {
   color: #bdbdbd;
+}
+
+.text-gray-three {
+  color: #f2f2f2;
 }
 
 .text-black {
   color: #000000;
+}
+
+.font-200 {
+  font-size: 200px;
 }
 
 .font-64 {
@@ -26,6 +34,10 @@
   font-size: 24px;
 }
 
+.font-22 {
+  font-size: 22px;
+}
+
 .font-16 {
   font-size: 16px;
 }
@@ -34,8 +46,17 @@
   font-size: 12px;
 }
 
+.lh-200 {
+  line-height: 200px;
+}
+
+
 .lh-64 {
   line-height: 64px;
+}
+
+.lh-36 {
+  line-height: 36px;
 }
 
 .lh-24 {
@@ -66,12 +87,20 @@
   margin-bottom: 80px;
 }
 
+.mb-60 {
+  margin-bottom: 60px;
+}
+
 .me-50 {
   margin-right: 50px;
 }
 
 .mt-30 {
   margin-top: 30px;
+}
+
+.me-30 {
+  margin-right: 30px;
 }
 
 .mb-30 {

@@ -87,10 +87,19 @@
 }
 
 @media (max-width: 991px) {
+  .mt-120 {
+    margin-top: 48px;
+  }
+
+
   .mt-80 {
     margin-top: 24px;
   }
-  
+
+.mb-80 {
+  margin-bottom: 36px;
+}
+
   .ms-80 {
     margin-left: 24px;
   }
@@ -128,5 +137,11 @@
   .px-70 {
     padding-left: 0;
     padding-right: 0;
+  }
+}
+
+@media (max-width: 567px) {
+  .border-top-gray-one {
+    border-top: 1px solid #f2f2f2;
   }
 }

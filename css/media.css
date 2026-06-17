@@ -86,6 +86,13 @@
   }
 }
 
+@media (min-width: 992px) {
+  .col-2-4 {
+  flex: 0 0 auto;
+  width: 20%;
+}
+}
+
 @media (max-width: 991px) {
   .mt-120 {
     margin-top: 48px;
@@ -132,6 +139,10 @@
 
   .mt-90 {
     margin-top: 0px;
+  }
+
+  .mb-60 {
+    margin-bottom: 30px;
   }
 
   .px-70 {

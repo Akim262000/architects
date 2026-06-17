@@ -10,6 +10,10 @@
   background-color: #333333;
 }
 
+.bg-gray-four {
+  background-color: #f3f3f3;
+}
+
 .text-gray-one {
   color: #333333;
 }
@@ -20,6 +24,10 @@
 
 .text-gray-three {
   color: #f2f2f2;
+}
+
+.text-gray-four {
+  color: #8d8d8d;
 }
 
 .text-black {
@@ -86,6 +94,10 @@
   margin-top: 90px;
 }
 
+.mt-80 {
+  margin-top: 80px;
+}
+
 .ms-80 {
   margin-left: 80px;
 }
@@ -138,6 +150,22 @@
 .px-40 {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.form-control {
+    border: 0;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border: 0;
+    box-shadow: none;
+    background-color: #f3f3f3;
+    color: #8d8d8d;
+}
+
+.form-control::placeholder {
+    color: #8d8d8d;
 }
 
 .nav-link.active {
@@ -235,4 +263,8 @@
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+.contact-us-textarea {
+  resize: none;
 }

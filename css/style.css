@@ -10,6 +10,10 @@
   background-color: #333333;
 }
 
+.bg-gray-three {
+  background-color: #2C2C2C;
+}
+
 .bg-gray-four {
   background-color: #f3f3f3;
 }
@@ -114,6 +118,10 @@
   margin-right: 50px;
 }
 
+.mb-32 {
+  margin-bottom: 32px;
+}
+
 .mt-30 {
   margin-top: 30px;
 }
@@ -137,6 +145,14 @@
 .px-70 {
   padding-left: 70px;
   padding-right: 70px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+.pt-58 {
+  padding-top: 58px;
 }
 
 .ps-35 {

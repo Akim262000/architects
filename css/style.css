@@ -4,7 +4,7 @@
 
 a:hover {
   color: #f3f3f3;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .bg-light-gray {
@@ -49,6 +49,10 @@ a:hover {
 
 .font-64 {
   font-size: 64px;
+}
+
+.font-40 {
+  font-size: 40px;
 }
 
 .font-24 {
@@ -119,6 +123,10 @@ a:hover {
   margin-top: 75px;
 }
 
+.mt-60 {
+  margin-top: 60px;
+}
+
 .mb-60 {
   margin-bottom: 60px;
 }
@@ -164,10 +172,6 @@ a:hover {
   padding-top: 58px;
 }
 
-.ps-35 {
-  padding-left: 35px;
-}
-
 .pe-64 {
   padding-right: 64px;
 }
@@ -175,6 +179,14 @@ a:hover {
 .px-40 {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.ps-35 {
+  padding-left: 35px;
+}
+
+.p-30 {
+  padding: 30px;
 }
 
 .py-30 {
@@ -188,7 +200,7 @@ a:hover {
 
 .border-top-gray-two {
   border-top: 1px solid #c8c8c8;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .form-control {

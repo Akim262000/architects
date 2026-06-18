@@ -319,3 +319,19 @@ a:hover {
 .contact-us-textarea {
   resize: none;
 }
+
+.project-detail-top,
+.project-detail-bottom {
+  max-height: 435px;
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.project-detail-center {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-height: 428px;
+}

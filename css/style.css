@@ -3,8 +3,7 @@
 }
 
 a:hover {
-  color: #f3f3f3;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .bg-light-gray {
@@ -192,6 +191,10 @@ a:hover {
 .py-30 {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.border-black {
+  border: 1px solid #000000;
 }
 
 .border-top-gray-one {

@@ -25,7 +25,7 @@
     <title>Architects</title>
   </head>
   <body class="body">
-    <header class="header mt-30 mb-30">
+        <header class="header bg-white py-30 w-100 position-fixed">
       <nav class="navbar navbar-expand-xl navbar-light p-0">
         <div class="container d-flex flex-row justify-content-between">
           <a class="navbar-brand" href="./index.html">
@@ -44,7 +44,7 @@
           </button>
 
           <div class="burger-menu collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-            <div class="border-menu navbar-nav">
+            <div class="border-menu navbar-nav my-4 my-xl-0">
               <a
                 class="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start"
                 href="./index.html"
@@ -67,7 +67,7 @@
               >
               <a
                 class="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 text-center text-xl-start"
-                href="./contscts.html"
+                href="./contacts.html"
                 >Contacts</a
               >
             </div>
@@ -75,8 +75,8 @@
         </div>
       </nav>
     </header>
-
-    <main class="container mt-60">
+    <div class="overlay"></div>
+    <main class="container pt-174">
       <section class="gallery">
         <h2 class="font-64 fw-light lh-64 text-gray-two mb-60 d-none d-md-block">Photo<br /><span class="text-black fw-bold">Gallery</span></h2>
         <h2 class="font-64 fw-light lh-64 text-gray-two mb-60 d-block d-md-none">Photo <span class="text-black fw-bold">Gallery</span></h2>
@@ -130,7 +130,7 @@
       <div class="container pt-58 pb-60">
         <div class="row justify-content-between d-flex">
           <div class="col-6 col-sm-6 col-lg-auto order-3 order-lg-1 mt-5 mt-lg-0">
-            <a href="./index.html">
+            <a href="./index.html" title="Ссылка на главную">
               <img src="./images/footer-logo.svg" alt="" />
             </a>
           </div>
@@ -150,7 +150,7 @@
                 <a class="font-14 fw-medium lh-24 text-white text-decoration-none" href="./certifications.html">Certifications</a>
               </li>
               <li class="text-center text-md-start">
-                <a class="font-14 fw-medium lh-24 text-white text-decoration-none" href="./contscts.html">Contacts</a>
+                <a class="font-14 fw-medium lh-24 text-white text-decoration-none" href="./contacts.html">Contacts</a>
               </li>
             </ul>
           </div>
@@ -190,7 +190,7 @@
       <div class="border-top-gray-two pb-4 w-100 bg-gray-three">
         <div class="d-flex justify-content-center mt-4">
           <span class="font-16 fw-normal text-gray-two me-2"> Frontend development: </span>
-          <a class="font-16 fw-normal text-gray-two mb-0 text-decoration-none" target="_blank" href="https://github.com/Akim262000/Habitus"
+          <a class="font-16 fw-normal text-gray-two mb-0 text-decoration-none"   target="_blank"  rel="noopener" href="https://github.com/Akim262000/Habitus"
             >Akim</a
           >
         </div>
@@ -198,7 +198,7 @@
           <span class="font-16 fw-normal text-gray-two mb-0 me-2">Landing Page Design by:</span>
           <a
             class="font-16 fw-normal text- text-gray-two mb-0 text-decoration-none"
-            target="_blank"
+              target="_blank"  rel="noopener"
             href="https://www.figma.com/design/vHV13KD2TOtlvm1n3xFVDo/Website-of-architects---free-website--Community-?node-id=0-1&p=f&t=MblR5Kl3qfoM6JiS-0"
             >Юрий Лобыкин</a
           >
@@ -222,8 +222,8 @@
       integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
       crossorigin="anonymous"
     ></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
   </body>
 </html>
